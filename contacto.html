@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto — Fundación CIC · Trelew, Chubut</title>
+<meta name="description" content="Contacto de la Fundación C.I.C., Trelew, Chubut.">
+<link rel="icon" href="assets/layout/img06.jpg">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/site.js" defer></script>
+</head>
+<body data-page="contacto" data-updated="15/10/09">
+<main id="main" class="content"><div class="bgtop"><div class="bgbtm"><article class="post">
+
+	<h1>Contacto</h1>
+
+	<p><strong>Fundación “C.I.C.”</strong><br>
+	Trelew, Provincia del Chubut<br>
+	Patagonia Argentina<br>
+	<em>fundacioncic.org</em></p>
+
+	<form class="box" id="contacto-form" novalidate>
+		<label for="c-nombre">Nombre</label>
+		<input id="c-nombre" name="nombre" autocomplete="name">
+		<label for="c-email">Correo electrónico</label>
+		<input id="c-email" name="email" type="email" autocomplete="email">
+		<label for="c-asunto">Asunto</label>
+		<input id="c-asunto" name="asunto" placeholder="Inscripción al Certamen, biblioteca, prensa…">
+		<label for="c-mensaje">Mensaje</label>
+		<textarea id="c-mensaje" name="mensaje"></textarea>
+		<button class="btn" type="submit">Enviar</button>
+		<p class="formmsg" id="contacto-msg" role="status" aria-live="polite"></p>
+	</form>
+
+	<div class="note warn">Sitio de archivo: este formulario reproduce el diseño del original pero <strong>no envía mensajes</strong>. Los datos de contacto actuales de la Fundación no se conservan en el archivo. Para habilitar el envío, el <code>&lt;form&gt;</code> puede apuntar a un servicio estático como Formspree (ver README).</div>
+
+	<script>
+	document.getElementById("contacto-form").addEventListener("submit", function (e) {
+		e.preventDefault();
+		document.getElementById("contacto-msg").textContent =
+			"Gracias. Este es un sitio de archivo (2026): el mensaje no fue enviado.";
+	});
+	</script>
+
+</article></div></div></main>
+</body>
+</html>

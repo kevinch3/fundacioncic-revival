@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Libro de Visitas — Fundación CIC · Trelew, Chubut</title>
+<meta name="description" content="Libro de visitas de la Fundación C.I.C.">
+<link rel="icon" href="assets/layout/img06.jpg">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/site.js" defer></script>
+<script src="js/libro.js" defer></script>
+</head>
+<body data-page="libro" data-updated="15/10/09">
+<main id="main" class="content"><div class="bgtop"><div class="bgbtm"><article class="post">
+
+	<h1>Libro de Visitas</h1>
+
+	<p>¿Cantaste en el Certamen? ¿Lo viviste desde la platea del Teatro Verdi? Dejá tu saludo, recuerdo o anécdota coral.</p>
+
+	<form class="box" id="libro-form" novalidate>
+		<label for="nombre">Nombre</label>
+		<input id="nombre" name="nombre" autocomplete="name" maxlength="60" required>
+		<label for="ciudad">Ciudad / coro <small>(opcional)</small></label>
+		<input id="ciudad" name="ciudad" maxlength="60">
+		<label for="mensaje">Mensaje</label>
+		<textarea id="mensaje" name="mensaje" maxlength="600" required></textarea>
+		<button class="btn" type="submit">Firmar el libro</button>
+		<button class="btn secondary" type="button" id="libro-clear">Borrar mis firmas</button>
+		<p class="formmsg" id="libro-msg" role="status" aria-live="polite"></p>
+	</form>
+
+	<div class="note">Este es un sitio de archivo sin servidor: las firmas se guardan <strong>sólo en tu navegador</strong> y no se envían a ningún lado. Nadie más puede verlas.</div>
+
+	<h2>Firmas</h2>
+	<ul class="entries" id="libro-entries"></ul>
+
+</article></div></div></main>
+</body>
+</html>
