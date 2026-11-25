@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu type="horizontal classic pro v 2.0">
+	<media_to_load lev0_left_path="menu_data/lev0_left.png" lev0_mid_normal_path="menu_data/lev0_normal.png" lev0_mid_mouseover_path="menu_data/lev0_mouseover.png" lev0_mid_selected_path="menu_data/lev0_mouseover.png" lev0_right_path="menu_data/lev0_right.png" lev0_arrow_path="menu_data/lev0_arrow.png" lev1_left_path="" lev1_mid_normal_path="menu_data/lev1_normal.png" lev1_mid_mouseover_path="menu_data/lev1_normal.png" lev1_mid_selected_path="menu_data/lev1_normal.png" lev1_right_path="" lev1_arrow_path="menu_data/lev1_arrow.png" search_button_path="menu_data/lev0_normal.png" bg_path="menu_data/Dibujo.jpg" snd_level0_mouseover_path="" snd_level1_mouseover_path="" snd_click_path="menu_data/click.mp3" lev1_top_path="" lev1_bottom_path=""/>
+	<menu_structure>
+		<item>
+			<item text="Principal" url="index.html" icon="" open_window="" take_level_colorize_data="0" colorize_color_normal="0xBCCDFA" colorize_color_mouseover="0xB1AEF0" colorize_color_selected="0xFFFFFF" colorize_saturation_normal="1" colorize_saturation_mouseover="0.6" colorize_saturation_selected="0.6">
+				<item text="Calendario de Actividades" url="" icon="" open_window="_self" take_level_colorize_data="1"/>
+				<item text="Libro de visitas" url="" icon="" open_window="_self" take_level_colorize_data="1"/>
+			</item>
+			<item text="La fundación" url="" icon="" open_window="" take_level_colorize_data="1">
+				<item text="Relaciones institucionales" url="relaciones.html" icon="" open_window="_self" take_level_colorize_data="1"/>
+				<item text="Staff" url="" icon="" open_window="_self" take_level_colorize_data="1"/>
+				<item text="Sponsors" url="sponsors.html" icon="" open_window="_self" take_level_colorize_data="1"/>
+				<item text="Proyectos" url="proyectos.html" icon="" open_window="_self" take_level_colorize_data="1"/>
+			</item>
+			<item text="Certamen Internacional de Coros" url="" icon="" open_window="_self" take_level_colorize_data="0" colorize_color_normal="0x09956F" colorize_color_mouseover="0x09956F" colorize_color_selected="0xFFFFFF" colorize_saturation_normal="0.39" colorize_saturation_mouseover="0.49" colorize_saturation_selected="0"/>
+			<item text="Simposio Coral 2011" url="" icon="" open_window="_self" take_level_colorize_data="0" colorize_color_normal="0xFFFFFF" colorize_color_mouseover="0xFFFFFF" colorize_color_selected="0xFFFFFF" colorize_saturation_normal="0" colorize_saturation_mouseover="0" colorize_saturation_selected="0"/>
+			<item text="Contacto" url="contacto.html" icon="" open_window="_self" take_level_colorize_data="1"/>
+		</item>
+	</menu_structure>
+</menu>
