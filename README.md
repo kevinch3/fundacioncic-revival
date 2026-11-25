@@ -104,7 +104,7 @@ The goal is to **finish the site the way it seems to have been heading in 2009**
   - `prefers-reduced-motion` support.
 - **Original URLs are kept.** The same file names are used (`historia.html`, `Simposio.html` with a capital S, `quiensms.html`…), so links to the old site's paths still work.
 - **The shared layout is generated, not copied.** In 2009 each page repeated about 200 lines of header, menu and footer markup. Now each page holds only its own `<main>`, and [`js/site.js`](js/site.js) builds the shared chrome around it.
-- **Honest labelling.** A ribbon on every page states that this is an archival reconstruction and links to the untouched original. Reconstructed content and missing material are flagged in notes on the pages themselves.
+- **Honest labelling.** A ribbon on every page states that this is an archival reconstruction and links to the untouched original. It is the only disclaimer on the site; this README is where reconstructed and lost material is documented.
 
 ## 5. Section by section
 
@@ -143,7 +143,7 @@ No build step, no framework, no external requests. The site is plain HTML, CSS a
 
 ## 7. What is original and what is reconstructed
 
-The guiding rule: **no invented facts about real people or events.** Where the archive is silent, the page says so.
+The guiding rule: **no invented facts about real people or events.** Where the archive is silent, the page leaves the gap rather than filling it in.
 
 **Verbatim or directly from the 2009–2011 archive:**
 - all institutional text: founding, legal numbers, president, memberships, activities and project list;
@@ -156,10 +156,10 @@ The guiding rule: **no invented facts about real people or events.** Where the a
 **Written for the revival** (all framed as context and drawn from the archived facts):
 - the section intros and the timeline layout;
 - the descriptions of the partner organisations;
-- the general description of the *World Symposium on Choral Music*, and the statement that its 2011 edition was held in Puerto Madryn, Chubut. **The Simposio page flags this as context to verify against IFCM sources**;
+- the general description of the *World Symposium on Choral Music*, and the statement that its 2011 edition was held in Puerto Madryn, Chubut. **this has not been verified against IFCM sources**;
 - the International Day of Choral Singing dates in the calendar, calculated as the second Sunday of December.
 
-**Lost, and marked as lost on the pages:** the video, the registration form and rules, the board member list, the guestbook entries, and the Fundación's current contact details.
+**Lost:** the video, the registration form and rules, the board member list, the guestbook entries, and the Fundación's current contact details.
 
 ## 8. Project structure
 

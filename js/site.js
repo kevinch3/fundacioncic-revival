@@ -138,8 +138,7 @@
 	// --------------------------------------------------------------- footer
 	var footer = el("footer", { "class": "footer" },
 		"Fundación C.I.C., Trelew, Chubut — <strong>fundacioncic.org</strong>" +
-		"<small>Diseño 2009 basado en «Compressed» de Free CSS Templates (CC BY 2.5). " +
-		"Reconstrucción 2026 — interpretación de archivo, sin afiliación oficial.</small>");
+		"<small>Diseño 2009 basado en «Compressed» de Free CSS Templates (CC BY 2.5).</small>");
 
 	// ------------------------------------------------------------- assemble
 	var wrap = el("div", { "class": "page" });
